@@ -8,14 +8,16 @@
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
 }
- 
-/* html{
-    height: 500vh;
-} */
+
+html{
+  scroll-behavior: smooth;  
+} 
 
 @media only screen and (max-device-width: 900px) {
-     .menu { width:100%; }
+     .menu { width:150%; }
     }
+
+
 
 /* CSS Menu Animado */
 
@@ -181,6 +183,7 @@ section.Sobre{
     padding-bottom: 3%;
 }
 
+
 .Titulo p{
     font-size: 25px;
     font-weight: 550;
@@ -263,6 +266,7 @@ section.Sobre{
     
 }
 
+
 .projects .projects__content {
     max-width: 56rem;
     text-align: center;
@@ -329,41 +333,42 @@ footer {
     justify-content: center;
     margin-top: -16rem;
     padding-top: 15rem;
-  }
+}
   
   footer .footer__content {
     text-align: center;
     padding:1rem;
     max-width: 47rem;
-  }
+}
   
   footer .footer__content .footer__contact span {
     display: block;
     font-weight: 500;
-  }
+}
   
   footer .footer__content ul li {
     display: inline-block;
-  }
+}
   
   footer .footer__content ul a {
     display: inline-block;
     padding: 1rem;
-  }
+}
   
   footer .footer__content .footer__copyright {
     font-size: 1.4rem;
-  }
+}
 
 .tertiary-title{
     font-size: 3rem;
     font-weight: 550;
 }
+
 .footer__content p{
     font-size: 20px;
     font-weight: 550;
     word-spacing: 5px;
 }
-   
+
 
  
