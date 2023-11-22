@@ -20,3 +20,20 @@ window.addEventListener('scroll', function(){
     onda3.style.backgroundPositionX = 200 + rolagemPos * 0.7 + 'px'
     onda4.style.backgroundPositionX = 100 + rolagemPos * -0.7 + 'px'
 })
+
+// menu show
+
+const menuIcon = document.querySelector('#menu');
+const menuMobile = document.querySelector('.menu-mobile');
+
+menuIcon.addEventListener('click', ()=>{
+    menuMobile.classList.toggle('active')
+
+})
+
+window.addEventListener('scroll', ()=>{
+    if (window.pageYOffset > 0){
+        menuMobile.classList.remove('active')
+    }
+
+})
